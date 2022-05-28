@@ -29,13 +29,13 @@ function App() {
       setmode('dark');
       document.body.style.backgroundColor = '#5c656e';
       showalert("Dark mode has been enabled","success");
-      document.title = 'TextUtils - Dark Mode';
+      document.title = 'TextFilter - Dark Mode';
     }
     else{
       setmode('light');
       document.body.style.backgroundColor = '#e9ecef';
       showalert("Light mode has been enabled","success");
-      document.title = 'TextUtils - Light Mode';
+      document.title = 'TextFilter - Light Mode';
       
     }
   }
