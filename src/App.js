@@ -42,7 +42,7 @@ function App() {
   const [mode, setmode] = useState('light');
   return (
     <>
-    <Navbar title="TextUtils" about="about app" mode={mode} toggle={togglemode}/>
+    <Navbar title="TextFilter" about="about app" mode={mode} toggle={togglemode}/>
     <Alert alert={alert}/>
 
     </>
